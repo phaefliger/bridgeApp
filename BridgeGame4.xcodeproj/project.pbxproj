@@ -7,9 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3514E7CA197FE9A100180F79 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7C9197FE9A000180F79 /* Parse.framework */; };
+		3514E7CC197FEA0100180F79 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7CB197FEA0100180F79 /* AudioToolbox.framework */; };
+		3514E7CE197FEA0A00180F79 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7CD197FEA0A00180F79 /* CFNetwork.framework */; };
+		3514E7D0197FEA1700180F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7CF197FEA1700180F79 /* CoreGraphics.framework */; };
+		3514E7D2197FEA2000180F79 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7D1197FEA2000180F79 /* CoreLocation.framework */; };
+		3514E7D4197FEA2C00180F79 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7D3197FEA2C00180F79 /* libz.dylib */; };
+		3514E7D6197FEA3600180F79 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7D5197FEA3600180F79 /* MobileCoreServices.framework */; };
+		3514E7D8197FEA4100180F79 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7D7197FEA4100180F79 /* QuartzCore.framework */; };
+		3514E7DA197FEA4900180F79 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7D9197FEA4900180F79 /* Security.framework */; };
+		3514E7DC197FEA5200180F79 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7DB197FEA5200180F79 /* StoreKit.framework */; };
+		3514E7DE197FEA5D00180F79 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3514E7DD197FEA5D00180F79 /* SystemConfiguration.framework */; };
+		35261EF11986DDAD003B2AC8 /* Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35261EF01986DDAD003B2AC8 /* Root.swift */; };
+		353E752119744D4400B653C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353E752019744D4400B653C4 /* Player.swift */; };
+		356A89DF1975A0D3002B4716 /* paper.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 356A89DE1975A0D3002B4716 /* paper.jpeg */; };
+		356A89E11975ACB6002B4716 /* DoneBiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356A89E01975ACB6002B4716 /* DoneBiddingViewController.swift */; };
+		356F93541981464600BC1803 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F93531981464600BC1803 /* Game.swift */; };
+		356F9356198152D800BC1803 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F9355198152D800BC1803 /* Hand.swift */; };
+		3588A75019707B2000F770EA /* BidChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588A74F19707B2000F770EA /* BidChoiceViewController.swift */; };
+		3588A75419707F7F00F770EA /* Bid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588A75319707F7F00F770EA /* Bid.swift */; };
+		3588A7561970809D00F770EA /* PassBid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588A7551970809D00F770EA /* PassBid.swift */; };
+		3588A758197080DD00F770EA /* BidTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588A757197080DD00F770EA /* BidTableViewCell.swift */; };
+		3588A75A1970830E00F770EA /* cardtablebackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3588A7591970830E00F770EA /* cardtablebackground.jpeg */; };
+		3588A75C1970832800F770EA /* club.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3588A75B1970832800F770EA /* club.jpeg */; };
+		3588A75E1970833700F770EA /* diamond.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3588A75D1970833700F770EA /* diamond.jpeg */; };
+		3588A7601970834B00F770EA /* heart.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3588A75F1970834B00F770EA /* heart.jpeg */; };
+		3588A7621970835A00F770EA /* spade.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3588A7611970835A00F770EA /* spade.jpeg */; };
+		3588A7641970836600F770EA /* notrump.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3588A7631970836600F770EA /* notrump.jpeg */; };
+		3588A7661970862500F770EA /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3588A7651970862500F770EA /* BoardViewController.swift */; };
+		35B4F9F9197D95990001EB9A /* ScorePad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 35B4F9F8197D95990001EB9A /* ScorePad.jpeg */; };
+		35D946AC197860E2000EAE96 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D946AB197860E2000EAE96 /* Team.swift */; };
 		35FC8254196F3493003BFC33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC8253196F3493003BFC33 /* AppDelegate.swift */; };
-		35FC8256196F3493003BFC33 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC8255196F3493003BFC33 /* FirstViewController.swift */; };
-		35FC8258196F3493003BFC33 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC8257196F3493003BFC33 /* SecondViewController.swift */; };
+		35FC8256196F3493003BFC33 /* BidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC8255196F3493003BFC33 /* BidViewController.swift */; };
+		35FC8258196F3493003BFC33 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC8257196F3493003BFC33 /* ScoreViewController.swift */; };
 		35FC825B196F3493003BFC33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35FC8259196F3493003BFC33 /* Main.storyboard */; };
 		35FC825D196F3493003BFC33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35FC825C196F3493003BFC33 /* Images.xcassets */; };
 		35FC8269196F3493003BFC33 /* BridgeGame4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FC8268196F3493003BFC33 /* BridgeGame4Tests.swift */; };
@@ -26,11 +56,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3514E7C6197FE79600180F79 /* BridgeGame4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BridgeGame4-Bridging-Header.h"; sourceTree = "<group>"; };
+		3514E7C9197FE9A000180F79 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		3514E7CB197FEA0100180F79 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3514E7CD197FEA0A00180F79 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3514E7CF197FEA1700180F79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3514E7D1197FEA2000180F79 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3514E7D3197FEA2C00180F79 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		3514E7D5197FEA3600180F79 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		3514E7D7197FEA4100180F79 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3514E7D9197FEA4900180F79 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3514E7DB197FEA5200180F79 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3514E7DD197FEA5D00180F79 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3524D6591976E7E1002D21DF /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		35261EF01986DDAD003B2AC8 /* Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Root.swift; sourceTree = "<group>"; };
+		353E752019744D4400B653C4 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		356A89DE1975A0D3002B4716 /* paper.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpeg; sourceTree = "<group>"; };
+		356A89E01975ACB6002B4716 /* DoneBiddingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoneBiddingViewController.swift; sourceTree = "<group>"; };
+		356F93531981464600BC1803 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		356F9355198152D800BC1803 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		3588A74F19707B2000F770EA /* BidChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidChoiceViewController.swift; sourceTree = "<group>"; };
+		3588A75319707F7F00F770EA /* Bid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bid.swift; sourceTree = "<group>"; };
+		3588A7551970809D00F770EA /* PassBid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassBid.swift; sourceTree = "<group>"; };
+		3588A757197080DD00F770EA /* BidTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BidTableViewCell.swift; sourceTree = "<group>"; };
+		3588A7591970830E00F770EA /* cardtablebackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardtablebackground.jpeg; sourceTree = "<group>"; };
+		3588A75B1970832800F770EA /* club.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = club.jpeg; sourceTree = "<group>"; };
+		3588A75D1970833700F770EA /* diamond.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diamond.jpeg; sourceTree = "<group>"; };
+		3588A75F1970834B00F770EA /* heart.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heart.jpeg; sourceTree = "<group>"; };
+		3588A7611970835A00F770EA /* spade.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spade.jpeg; sourceTree = "<group>"; };
+		3588A7631970836600F770EA /* notrump.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = notrump.jpeg; sourceTree = "<group>"; };
+		3588A7651970862500F770EA /* BoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		35B4F9F8197D95990001EB9A /* ScorePad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ScorePad.jpeg; sourceTree = "<group>"; };
+		35D946AB197860E2000EAE96 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		35FC824E196F3493003BFC33 /* BridgeGame4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgeGame4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FC8252196F3493003BFC33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35FC8253196F3493003BFC33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35FC8255196F3493003BFC33 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		35FC8257196F3493003BFC33 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		35FC8255196F3493003BFC33 /* BidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidViewController.swift; sourceTree = "<group>"; };
+		35FC8257196F3493003BFC33 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		35FC825A196F3493003BFC33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35FC825C196F3493003BFC33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		35FC8262196F3493003BFC33 /* BridgeGame4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgeGame4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +105,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3514E7DE197FEA5D00180F79 /* SystemConfiguration.framework in Frameworks */,
+				3514E7DC197FEA5200180F79 /* StoreKit.framework in Frameworks */,
+				3514E7DA197FEA4900180F79 /* Security.framework in Frameworks */,
+				3514E7D8197FEA4100180F79 /* QuartzCore.framework in Frameworks */,
+				3514E7D6197FEA3600180F79 /* MobileCoreServices.framework in Frameworks */,
+				3514E7D4197FEA2C00180F79 /* libz.dylib in Frameworks */,
+				3514E7D2197FEA2000180F79 /* CoreLocation.framework in Frameworks */,
+				3514E7D0197FEA1700180F79 /* CoreGraphics.framework in Frameworks */,
+				3514E7CE197FEA0A00180F79 /* CFNetwork.framework in Frameworks */,
+				3514E7CC197FEA0100180F79 /* AudioToolbox.framework in Frameworks */,
+				3514E7CA197FE9A100180F79 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +129,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3588A75119707F3000F770EA /* Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				35FC8257196F3493003BFC33 /* ScoreViewController.swift */,
+			);
+			name = Scoring;
+			sourceTree = "<group>";
+		};
+		3588A75219707F4600F770EA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3588A75319707F7F00F770EA /* Bid.swift */,
+				3588A7551970809D00F770EA /* PassBid.swift */,
+				3588A757197080DD00F770EA /* BidTableViewCell.swift */,
+				353E752019744D4400B653C4 /* Player.swift */,
+				35D946AB197860E2000EAE96 /* Team.swift */,
+				356F93531981464600BC1803 /* Game.swift */,
+				356F9355198152D800BC1803 /* Hand.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		35FC8245196F3492003BFC33 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +173,26 @@
 			isa = PBXGroup;
 			children = (
 				35FC8253196F3493003BFC33 /* AppDelegate.swift */,
-				35FC8255196F3493003BFC33 /* FirstViewController.swift */,
-				35FC8257196F3493003BFC33 /* SecondViewController.swift */,
+				35261EF01986DDAD003B2AC8 /* Root.swift */,
+				3588A75119707F3000F770EA /* Scoring */,
+				35FC8274196F431D003BFC33 /* Bidding */,
+				3588A75219707F4600F770EA /* Components */,
 				35FC8259196F3493003BFC33 /* Main.storyboard */,
+				3524D6591976E7E1002D21DF /* MyPlayground.playground */,
+				3514E7D3197FEA2C00180F79 /* libz.dylib */,
+				3514E7CB197FEA0100180F79 /* AudioToolbox.framework */,
+				3514E7CD197FEA0A00180F79 /* CFNetwork.framework */,
+				3514E7CF197FEA1700180F79 /* CoreGraphics.framework */,
+				3514E7D1197FEA2000180F79 /* CoreLocation.framework */,
+				3514E7D5197FEA3600180F79 /* MobileCoreServices.framework */,
+				3514E7D7197FEA4100180F79 /* QuartzCore.framework */,
+				3514E7D9197FEA4900180F79 /* Security.framework */,
+				3514E7DB197FEA5200180F79 /* StoreKit.framework */,
+				3514E7C9197FE9A000180F79 /* Parse.framework */,
+				3514E7DD197FEA5D00180F79 /* SystemConfiguration.framework */,
 				35FC825C196F3493003BFC33 /* Images.xcassets */,
 				35FC8251196F3493003BFC33 /* Supporting Files */,
+				3514E7C6197FE79600180F79 /* BridgeGame4-Bridging-Header.h */,
 			);
 			path = BridgeGame4;
 			sourceTree = "<group>";
@@ -90,6 +200,14 @@
 		35FC8251196F3493003BFC33 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				35B4F9F8197D95990001EB9A /* ScorePad.jpeg */,
+				356A89DE1975A0D3002B4716 /* paper.jpeg */,
+				3588A7631970836600F770EA /* notrump.jpeg */,
+				3588A7611970835A00F770EA /* spade.jpeg */,
+				3588A75F1970834B00F770EA /* heart.jpeg */,
+				3588A75D1970833700F770EA /* diamond.jpeg */,
+				3588A75B1970832800F770EA /* club.jpeg */,
+				3588A7591970830E00F770EA /* cardtablebackground.jpeg */,
 				35FC8252196F3493003BFC33 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +228,17 @@
 				35FC8267196F3493003BFC33 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35FC8274196F431D003BFC33 /* Bidding */ = {
+			isa = PBXGroup;
+			children = (
+				35FC8255196F3493003BFC33 /* BidViewController.swift */,
+				3588A74F19707B2000F770EA /* BidChoiceViewController.swift */,
+				3588A7651970862500F770EA /* BoardViewController.swift */,
+				356A89E01975ACB6002B4716 /* DoneBiddingViewController.swift */,
+			);
+			name = Bidding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +321,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3588A7621970835A00F770EA /* spade.jpeg in Resources */,
+				3588A75A1970830E00F770EA /* cardtablebackground.jpeg in Resources */,
 				35FC825B196F3493003BFC33 /* Main.storyboard in Resources */,
+				3588A7601970834B00F770EA /* heart.jpeg in Resources */,
+				356A89DF1975A0D3002B4716 /* paper.jpeg in Resources */,
 				35FC825D196F3493003BFC33 /* Images.xcassets in Resources */,
+				3588A7641970836600F770EA /* notrump.jpeg in Resources */,
+				3588A75C1970832800F770EA /* club.jpeg in Resources */,
+				35B4F9F9197D95990001EB9A /* ScorePad.jpeg in Resources */,
+				3588A75E1970833700F770EA /* diamond.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,9 +348,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35FC8258196F3493003BFC33 /* SecondViewController.swift in Sources */,
+				3588A75419707F7F00F770EA /* Bid.swift in Sources */,
+				35FC8258196F3493003BFC33 /* ScoreViewController.swift in Sources */,
+				3588A7561970809D00F770EA /* PassBid.swift in Sources */,
+				3588A7661970862500F770EA /* BoardViewController.swift in Sources */,
+				356F9356198152D800BC1803 /* Hand.swift in Sources */,
+				3588A75019707B2000F770EA /* BidChoiceViewController.swift in Sources */,
 				35FC8254196F3493003BFC33 /* AppDelegate.swift in Sources */,
-				35FC8256196F3493003BFC33 /* FirstViewController.swift in Sources */,
+				35FC8256196F3493003BFC33 /* BidViewController.swift in Sources */,
+				356F93541981464600BC1803 /* Game.swift in Sources */,
+				35261EF11986DDAD003B2AC8 /* Root.swift in Sources */,
+				353E752119744D4400B653C4 /* Player.swift in Sources */,
+				35D946AC197860E2000EAE96 /* Team.swift in Sources */,
+				356A89E11975ACB6002B4716 /* DoneBiddingViewController.swift in Sources */,
+				3588A758197080DD00F770EA /* BidTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +479,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BridgeGame4",
+				);
 				INFOPLIST_FILE = BridgeGame4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgeGame4/BridgeGame4-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -342,9 +497,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BridgeGame4",
+				);
 				INFOPLIST_FILE = BridgeGame4/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BridgeGame4/BridgeGame4-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -403,6 +564,7 @@
 				35FC826E196F3493003BFC33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35FC826F196F3493003BFC33 /* Build configuration list for PBXNativeTarget "BridgeGame4Tests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +573,7 @@
 				35FC8271196F3493003BFC33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
