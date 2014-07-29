@@ -19,10 +19,28 @@ class ScoreViewController: UIViewController {
     @IBOutlet var ThemR1Game2 : UITextView
     @IBOutlet var ThemR1Game3 : UITextView
     @IBOutlet var scorePadImage : UIImageView
-   
+    @IBOutlet var UsOverTheLineR2 : UITextView
+    @IBOutlet var UsR2Game1 : UITextView
+    @IBOutlet var UsR2Game2 : UITextView
+    @IBOutlet var UsR2Game3 : UITextView
+    @IBOutlet var ThemOverTheLineR2 : UITextView
+    @IBOutlet var ThemR2Game1 : UITextView
+    @IBOutlet var ThemR2Game2 : UITextView
+    @IBOutlet var ThemR2Game3 : UITextView
+    @IBOutlet var UsOverTheLineR3 : UITextView
+    @IBOutlet var UsR3Game1 : UITextView
+    @IBOutlet var UsR3Game2 : UITextView
+    @IBOutlet var UsR3Game3 : UITextView
+    @IBOutlet var ThemOverTheLineR3 : UITextView
+    @IBOutlet var ThemR3Game1 : UITextView
+    @IBOutlet var ThemR3Game2 : UITextView
+    @IBOutlet var ThemR3Game3 : UITextView
+    
+    
     var overTheLine:Int = 0
     var underTheLine:Int = 0
     var currentGameNumb:Int = 1
+    var currentRubberNumb:Int = 1
     var currentTeam:Team?
     var game:Game?
     
@@ -78,13 +96,43 @@ class ScoreViewController: UIViewController {
                 
             
         }
-        switch(currentGameNumb){
+        switch(currentRubberNumb){
         case(1):
-            currentTeam!.game1Text += "\n\(underTheLine)"
+            currentTeam!.overTheLineTextR1 += "\n\(overTheLine)"
+            switch(currentGameNumb){
+            case(1):
+                currentTeam!.game1R1Text += "\n\(underTheLine)"
+            case(2):
+                currentTeam!.game2R1Text += "\n\(underTheLine)"
+            case(3):
+                currentTeam!.game3R1Text += "\n\(underTheLine)"
+            default:
+                break
+            }
         case(2):
-            currentTeam!.game2Text += "\n\(underTheLine)"
+            currentTeam!.overTheLineTextR2 += "\n\(overTheLine)"
+            switch(currentGameNumb){
+            case(1):
+                currentTeam!.game1R2Text += "\n\(underTheLine)"
+            case(2):
+                currentTeam!.game2R2Text += "\n\(underTheLine)"
+            case(3):
+                currentTeam!.game3R2Text += "\n\(underTheLine)"
+            default:
+                break
+            }
         case(3):
-            currentTeam!.game3Text += "\n\(underTheLine)"
+            currentTeam!.overTheLineTextR2 += "\n\(overTheLine)"
+            switch(currentGameNumb){
+            case(1):
+                currentTeam!.game1R3Text += "\n\(underTheLine)"
+            case(2):
+                currentTeam!.game2R3Text += "\n\(underTheLine)"
+            case(3):
+                currentTeam!.game3R3Text += "\n\(underTheLine)"
+            default:
+                break
+            }
         default:
             break
         }
@@ -98,20 +146,38 @@ class ScoreViewController: UIViewController {
             currentTeam!.currentUnderPoints = 0
             if currentTeam!.gamesWon == 2 {
                 currentTeam!.rubbersWon++
+                currentRubberNumb++
+                currentGameNumb = 1
             }
         }
         (self.tabBarController as Root).newHand()
         
     }
     func resetScores(){
-        UsOverTheLineR1.text = game!.teamNS!.overTheLineText
-        UsR1Game1.text = game!.teamNS!.game1Text
-        UsR1Game2.text = game!.teamNS!.game2Text
-        UsR1Game3.text = game!.teamNS!.game3Text
-        ThemOverTheLineR1.text = game!.teamWE!.overTheLineText
-        ThemR1Game1.text = game!.teamWE!.game1Text
-        ThemR1Game2.text = game!.teamWE!.game2Text
-        ThemR1Game3.text = game!.teamWE!.game3Text
+        UsOverTheLineR1.text = game!.teamNS!.overTheLineTextR1
+        UsR1Game1.text = game!.teamNS!.game1R1Text
+        UsR1Game2.text = game!.teamNS!.game2R1Text
+        UsR1Game3.text = game!.teamNS!.game3R1Text
+        ThemOverTheLineR1.text = game!.teamWE!.overTheLineTextR1
+        ThemR1Game1.text = game!.teamWE!.game1R1Text
+        ThemR1Game2.text = game!.teamWE!.game2R1Text
+        ThemR1Game3.text = game!.teamWE!.game3R1Text
+        UsOverTheLineR2.text = game!.teamNS!.overTheLineTextR2
+        UsR2Game1.text = game!.teamNS!.game1R2Text
+        UsR2Game2.text = game!.teamNS!.game2R2Text
+        UsR2Game3.text = game!.teamNS!.game3R2Text
+        ThemOverTheLineR2.text = game!.teamWE!.overTheLineTextR2
+        ThemR2Game1.text = game!.teamWE!.game1R2Text
+        ThemR2Game2.text = game!.teamWE!.game2R2Text
+        ThemR2Game3.text = game!.teamWE!.game3R2Text
+        UsOverTheLineR3.text = game!.teamNS!.overTheLineTextR3
+        UsR3Game1.text = game!.teamNS!.game1R3Text
+        UsR3Game2.text = game!.teamNS!.game2R3Text
+        UsR3Game3.text = game!.teamNS!.game3R3Text
+        ThemOverTheLineR3.text = game!.teamWE!.overTheLineTextR3
+        ThemR3Game1.text = game!.teamWE!.game1R3Text
+        ThemR3Game2.text = game!.teamWE!.game2R3Text
+        ThemR3Game3.text = game!.teamWE!.game3R3Text
     }
     
 }

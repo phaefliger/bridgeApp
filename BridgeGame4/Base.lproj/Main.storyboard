@@ -170,6 +170,102 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-mF-ZXr" userLabel="UsR2Game1">
+                                <rect key="frame" x="260" y="795" width="120" height="178"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="87M-qu-uDf" userLabel="UsR2Game2">
+                                <rect key="frame" x="260" y="430" width="120" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dce-YA-mdu" userLabel="UsR2Game3">
+                                <rect key="frame" x="260" y="638" width="120" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0QV-Pf-MQj" userLabel="UsOverTheLineR2">
+                                <rect key="frame" x="260" y="178" width="120" height="208"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b5I-i1-4Kh" userLabel="ThemOverTheLIneR2">
+                                <rect key="frame" x="391" y="178" width="117" height="208"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FTb-nv-zhd" userLabel="ThemR2Game1">
+                                <rect key="frame" x="391" y="430" width="117" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="07z-bl-k3Q" userLabel="ThemR2Game2">
+                                <rect key="frame" x="391" y="638" width="117" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pat-vR-zAG" userLabel="ThemR2Game3">
+                                <rect key="frame" x="393" y="795" width="115" height="178"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ln3-5B-pcv" userLabel="UsOverTheLIneR3">
+                                <rect key="frame" x="518" y="178" width="120" height="208"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mex-FG-ykP" userLabel="ThemOverTheLineR3">
+                                <rect key="frame" x="648" y="178" width="120" height="208"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KrM-0l-pkU" userLabel="UsR3Game1">
+                                <rect key="frame" x="518" y="430" width="120" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tF7-E5-kZx" userLabel="ThemR3Game1">
+                                <rect key="frame" x="646" y="430" width="120" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fhw-ld-OZK" userLabel="UsR3Game2">
+                                <rect key="frame" x="518" y="638" width="120" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zwu-ZB-zjs" userLabel="ThemR3Game2">
+                                <rect key="frame" x="646" y="638" width="120" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bV8-TO-M2Y" userLabel="UsR3Game3">
+                                <rect key="frame" x="518" y="795" width="120" height="178"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vvp-NZ-0e1" userLabel="ThemR3Game3">
+                                <rect key="frame" x="646" y="795" width="120" height="178"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -179,13 +275,29 @@
                     <connections>
                         <outlet property="ScorePadImage" destination="qqw-NG-zap" id="xxW-SQ-vA0"/>
                         <outlet property="ThemOverTheLineR1" destination="PTG-oj-Bkz" id="cLP-co-tS3"/>
+                        <outlet property="ThemOverTheLineR2" destination="b5I-i1-4Kh" id="ntl-9X-JyL"/>
+                        <outlet property="ThemOverTheLineR3" destination="mex-FG-ykP" id="5f4-jx-E6A"/>
                         <outlet property="ThemR1Game1" destination="ck7-DM-wjW" id="ozw-SP-tJR"/>
                         <outlet property="ThemR1Game2" destination="fzx-zN-FtK" id="ap5-HL-Tk5"/>
                         <outlet property="ThemR1Game3" destination="oJE-Xg-fni" id="DIF-Qp-9EZ"/>
+                        <outlet property="ThemR2Game1" destination="FTb-nv-zhd" id="8P2-Jw-2QF"/>
+                        <outlet property="ThemR2Game2" destination="07z-bl-k3Q" id="fMT-Gh-bTm"/>
+                        <outlet property="ThemR2Game3" destination="Pat-vR-zAG" id="3UP-dn-rCg"/>
+                        <outlet property="ThemR3Game1" destination="tF7-E5-kZx" id="Jkt-0f-Kw1"/>
+                        <outlet property="ThemR3Game2" destination="zwu-ZB-zjs" id="AtR-RK-vIz"/>
+                        <outlet property="ThemR3Game3" destination="vvp-NZ-0e1" id="VHM-yN-u8i"/>
                         <outlet property="UsOverTheLineR1" destination="UPO-vm-dJm" id="qby-E5-kmC"/>
+                        <outlet property="UsOverTheLineR2" destination="0QV-Pf-MQj" id="4ta-Gd-99w"/>
+                        <outlet property="UsOverTheLineR3" destination="ln3-5B-pcv" id="dLM-Iz-coJ"/>
                         <outlet property="UsR1Game1" destination="6hT-IC-6M2" id="YKl-Wj-T0M"/>
                         <outlet property="UsR1Game2" destination="JPp-df-ZSl" id="x0C-Xq-G1c"/>
                         <outlet property="UsR1Game3" destination="XvO-Ck-5jV" id="rte-Pu-ZM2"/>
+                        <outlet property="UsR2Game1" destination="87M-qu-uDf" id="UbL-dV-Yt4"/>
+                        <outlet property="UsR2Game2" destination="dce-YA-mdu" id="ack-mI-2M0"/>
+                        <outlet property="UsR2Game3" destination="zX4-mF-ZXr" id="3fh-Xo-xMv"/>
+                        <outlet property="UsR3Game1" destination="KrM-0l-pkU" id="Uat-4R-kqk"/>
+                        <outlet property="UsR3Game2" destination="fhw-ld-OZK" id="FEy-WT-lHC"/>
+                        <outlet property="UsR3Game3" destination="bV8-TO-M2Y" id="AeG-fh-gTi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>

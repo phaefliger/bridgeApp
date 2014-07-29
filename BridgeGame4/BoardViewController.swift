@@ -289,8 +289,10 @@ class BoardViewController: UIViewController, UITableViewDelegate, UITableViewDat
     }
     
     func newHand(){
+        currentPlayer!.name!.textColor = UIColor.blackColor()
         currentPlayer = player1
-        currentPlayerNumber = 0
+        currentPlayer!.name!.textColor = UIColor.redColor()
+        currentPlayerNumber = 1
         player1Numb.text = ""
         player2Numb.text = ""
         player3Numb.text = ""
